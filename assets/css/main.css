@@ -4360,3 +4360,23 @@
 .esconde {
 	display: none ;
 }	
+
+.iconebolavazia {
+	list-style-type: circle;
+}
+
+.iconebolavazia a {
+	-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+	-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+	-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
+	transition: color 0.2s ease, border-bottom-color 0.2s ease;
+	border-bottom: dotted 10px rgba(255, 255, 255, 0.35);
+	color: blue;
+	text-decoration: none;
+}
+
+.iconebolavazia a:hover {
+	border-bottom-color: transparent;
+	color: darkblue;
+}
+
