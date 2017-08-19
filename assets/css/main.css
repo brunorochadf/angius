@@ -4313,24 +4313,36 @@
 }
 #angius {
 	background-attachment: scroll,							fixed;
-	background-image: url("images/logo3.jpg"), url("../../images/logo3.jpg");
-	background-position: top left,						center center;
+	background-image: url("images/logo5.jpg"), url("../../images/logo5.jpg");
+	background-position: top left,						top right;
 	background-repeat: repeat,							no-repeat;
-	background-size: auto,						cover; 		
+	background-size: auto,							1050px 700px; 		
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 	#angius {
 		background-attachment: fixed;
-		background-image: url("../../images/logo3.jpg");
+		background-image: url("../../images/logo5.jpg");
 /*
 		background-position: top top;
 */
+		background-position: top center;
 		background-repeat: no-repeat;
-		background-size: 500px 400px; 		
+		background-size: 500px 450px; 		
 	}
 }
+
+@media screen and (max-width: 500px) {
+	#angius {
+		background-attachment: fixed;
+		background-image: url("../../images/logo5.jpg");
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: 400px 450px; 		
+	}
+}
+
 
 
 #logo {
@@ -4347,7 +4359,4 @@
 }	
 .esconde {
 	display: none ;
-}
-
-
-
+}	
